@@ -1,0 +1,16 @@
+For React Project Commands
+1. yarn create vite app
+2. cd app
+3. yarn
+4. yarn dev
+
+For django project commands
+
+1. django-admin startproject server
+2. cd server
+3. pip install django djangorestframework
+   ( Add corsheaders to installed app and 
+   'corsheaders.middleware.CorsMiddleware' to middleware
+   End of the settings add CORS_ALLOW_ALL_ORIGINS = True for development purpose, when i will host i should specifiy that origin for data lick safety)
+4. django-admin startapp newproject
+5. pip install django-cors-headers
